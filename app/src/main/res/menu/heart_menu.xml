@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item app:showAsAction="always"
+        android:title="Sign Out"
+        android:id="@+id/m_sign_out"
+        android:icon="@drawable/logout"
+        android:orderInCategory="100"
+        
+        />
+    <item app:showAsAction="never"
+        android:title="Edit Profile"
+        android:id="@+id/m_edit_profile"
+        android:orderInCategory="400"/>
+    <item app:showAsAction="never"
+        android:title="History"
+        android:id="@+id/m_history"
+        android:orderInCategory="300"/>
+
+
+</menu>
